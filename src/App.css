@@ -9,6 +9,16 @@
   width: 1026px;
   height: 963px;
 }
+.slide-169-1-item1 {
+  position: absolute;
+  top: 3507px;
+  left: calc(50% - 1147px);
+  border-radius: 50%;
+  background-color: var(--color-khaki);
+  filter: blur(398.3px);
+  width: 1026px;
+  height: 963px;
+}
 .slide-169-1-item {
   top: 1363px;
   left: calc(50% - 1214px);
@@ -16,6 +26,15 @@
 .slide-169-1-inner {
   position: absolute;
   top: 390px;
+  left: calc(50% + 278px);
+  border-radius: 50%;
+  background-color: #ffaf97;
+  filter: blur(497.2px);
+  width: 1084px;
+  height: 1027px;
+}.slide-169-1-inner1 {
+  position: absolute;
+  top: 2390px;
   left: calc(50% + 278px);
   border-radius: 50%;
   background-color: #ffaf97;
@@ -176,12 +195,14 @@
 }
 .bottom {
   position: absolute;
-  top: 4238px;
-  left: 351px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 1092px;
   height: 70px;
   font-size: var(--font-size-3xl);
 }
+
 .lotterie-wrapper,
 .lotterie1 {
   position: absolute;
@@ -189,13 +210,13 @@
 }
 .lotterie1 {
   top: 0;
-  left: calc(50% - 610px);
+  left: calc(50% - 1010px);
   line-height: 110%;
   text-transform: capitalize;
   display: inline-block;
 }
 .lotterie-wrapper {
-  top: 989px;
+  top: 969px;
   left: calc(50% - 609px);
   height: 55px;
   text-align: center;
@@ -203,8 +224,8 @@
 }
 .cryptocurrency-1-icon {
   position: absolute;
-  top: 121px;
-  left: 875px;
+  top: 2%;
+  left: 48%;
   width: 863px;
   height: 863.01px;
 }
@@ -269,12 +290,47 @@
 }
 .unsplashpvoepplw818-icon {
   position: absolute;
-  top: 24px;
-  left: 53px;
+  top: -70px;
+  left: 30px;
   border-radius: var(--br-xs);
-  width: 371px;
-  height: 452px;
+  width: 100%;
+  height:100%;
   object-fit: cover;
+}
+.button-item {
+  top: 0;
+  left: calc(50% - 92px);
+  border-radius: var(--br-6xl);
+  width: 183.8px;
+}
+.button-item,
+.button2,
+.connect {
+  position: absolute;
+  height: 73.61px;
+}
+.connect {
+  top: 0;
+  left: calc(50% - 91.8px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 183.8px;
+}
+.button2 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 950px;
+  left: calc(50% + 320px);
+  width: 184px;
 }
 .lotterie-item,
 .lotterie2 {
@@ -420,7 +476,22 @@
   border-radius: var(--br-lg);
   background-color: var(--color-deepskyblue);
   width: 265px;
-  height: 171px;
+  height: 471px;
+}
+.winner-icon1 {
+  position: absolute;
+  top: 115px;
+  left: -170px;
+}
+.winner-icon2 {
+  position: absolute;
+  top: 115px;
+  left: -170px;
+}
+.winner-icon3 {
+  position: absolute;
+  top: 111px;
+  left: -170px;
 }
 .button-child1 {
   top: 0;
@@ -476,12 +547,16 @@
   left: calc(50% - 133.5px);
 }
 .lotterie-child1,
-.lotterie5,
+.lotterie5{
+  position: absolute;
+  width: 265px;
+  height: 471px;
+}
 .lotterie6,
 .lotterie7 {
   position: absolute;
   width: 265px;
-  height: 171px;
+  height: 471px;
 }
 .lotterie-child1 {
   top: 0;
@@ -696,7 +771,7 @@
   position: relative;
   background-color: #fffbf6;
   width: 100%;
-  height: 4308px;
+  height: 4408px;
   overflow: hidden;
   text-align: left;
   font-size: var(--sub-header-size);

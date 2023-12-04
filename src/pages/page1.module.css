@@ -36,8 +36,8 @@
 .denignma,
 .my-account {
   position: absolute;
-  top: 0;
-  line-height: 27.5px;
+  top: 100;
+  line-height: 54.5px;
   text-transform: uppercase;
 }
 .denignma {
@@ -54,14 +54,49 @@
   display: inline-block;
 }
 .my-account {
-  left: calc(50% + 464px);
+  left: calc(50% + 246.5px);
 }
+.button-child1 {
+  position: absolute;
+  top: 0;
+  left: calc(50% - 92px);
+  border-radius: var(--br-6xl);
+  width: 183.8px;
+  height: 53.61px;
+}
+.connect1 {
+  top: 0;
+  left: calc(50% - 91.8px);
+  font-size: var(--sub-header-size);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  display: flex;
+  font-family: var(--sub-header);
+  color: var(--color-white);
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 183.8px;
+}
+.button1,
+.connect1,
 .top {
   position: absolute;
-  top: 42px;
+  height: 53.61px;
+}
+.button1 {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  top: 0;
+  left: calc(50% + 417.5px);
+  width: 184px;
+}
+.top {
+  top: 29px;
   left: calc(50% - 609px);
-  width: 1192px;
-  height: 28px;
+  width: 1203px;
 }
 .denigma,
 .my-account1,
@@ -112,8 +147,9 @@
 }
 .bottom {
   position: absolute;
-  top: 1883px;
-  left: 351px;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
   width: 1092px;
   height: 70px;
   font-size: var(--font-size-3xl);

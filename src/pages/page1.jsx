@@ -5,7 +5,10 @@ import NFT2 from '../assets/NFT2.svg'
 import Facebook from '../assets/Facebook.svg'
 import LinkedIn from '../assets/LinkedIn.svg'
 import twitter from '../assets/twitter.svg'
+import RectangleConnect from '../assets/RectangleConnect.svg'
+
 import styles from'./page1.module.css'
+
 
 
 
@@ -28,7 +31,11 @@ function Page1() {
   <b className={styles['dashboard']}>Dashboard</b>
   <div className={styles['top']}>
     <Link to="/"><div className={styles['denigma']}>Denigma</div></Link>
-    <Link to="/page2"><div className={styles['my-account']}>My Account</div></Link>
+    <Link to="/page1"><div className={styles['my-account']}>My Account</div></Link>
+    <button className={styles['button1']}>
+          <img className={styles['button-child1']} alt="" src={RectangleConnect} />
+          <b className={styles['connect1']}>Connect</b>
+        </button>
 
   </div>
   <div className={styles['bottom']}>
@@ -39,6 +46,7 @@ function Page1() {
     <img className={styles['twitter-icon']} alt="" src={twitter} />
     <img className={styles['group-icon']} alt="" src={LinkedIn} />
   </div>
+  
   <div className={styles['raffle']}>
     <div className={styles['lotterie']}>
       <div className={styles['lotterie-child']} />

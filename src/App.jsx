@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
-import NFT from './assets/Cryptocurrency.svg'
+import NFT from './assets/NF.svg'
 import NFTRose from './assets/NFTRose.svg'
 import NFTBleu from './assets/NFTBleu.svg'
 import Dollar from './assets/Dollar.svg'
@@ -18,6 +18,12 @@ import Step1 from './assets/Step1.svg'
 import Step2 from './assets/Step2.svg'
 import Step3 from './assets/Step3.svg'
 import Line from './assets/Line 2.svg'
+import view from './assets/vew.png'
+import test from './assets/teest.jpg'
+import billet from './assets/billet.png'
+import billetDroit from './assets/billetDroit.png'
+import winner1 from './assets/winner.png'
+import RectangleConnect from './assets/RectangleConnect.svg'
 
 
 import { Link, BrowserRouter as Router, Route, Routes } from 'react-router-dom';
@@ -70,15 +76,19 @@ function App() {
         <Routes>
           <Route exact path="/" element={<>
             <div className="slide-169-1">
-      <div className="slide-169-1-child" />
-      <div className="slide-169-1-item" />
-      <div className="slide-169-1-inner" />
-      <b className="play-and-win">Play and win some prizes</b>
-      <div className="top">
-                <button className="denignma">Denignma</button>
+              <div className="slide-169-1-child" />
+
+              <div className="slide-169-1-item" />
+              <div className="slide-169-1-inner" />
+              <div className="slide-169-1-inner1" />
+              <div className="slide-169-1-item1" />
+
+              <b className="play-and-win">Play and win some prizes</b>
+              <div className="top">
+                <button className="denignma">Denigma</button>
                 {/* <div className="lotterie">Lotterie</div> */}
                 <div className="lotterie" onClick={lotterie}>Lotterie</div>
-                <div className="how-i-works" onClick={works}>How i works</div>
+                <div className="how-i-works" onClick={works}>How it works</div>
                 <div className="previous-winner" onClick={winner}>Previous winner</div>
                 <Link to="/page1"><div className="my-account">my Account</div></Link>
 
@@ -97,10 +107,10 @@ function App() {
               <img
                 className="cryptocurrency-1-icon"
                 alt=""
-                src={NFT}
+                src={view}
               />
               <div className="lotterie2">
-                <div className="lotterie-child" />
+                {/* <div className="lotterie-child" /> */}
                 <button className="button">
                   <img className="button-child" alt="" src={RectangleBleu} />
                   <b className="enter">Enter</b>
@@ -109,11 +119,15 @@ function App() {
                 <img
                   className="unsplashpvoepplw818-icon"
                   alt=""
-                  src={NFTRose}
+                  src={billetDroit}
                 />
               </div>
+              <button className="button2">
+                <img className="button-item" alt="" src={RectangleConnect} />
+                <b className="connect">Connect</b>
+              </button>
               <div className="lotterie3">
-                <div className="lotterie-item" />
+                {/* <div className="lotterie-item" /> */}
                 <button className="button1">
                   <img className="button-item" alt="" src={RectangleComing} />
                   <b className="coming-soon">Coming soon</b>
@@ -122,11 +136,11 @@ function App() {
                 <img
                   className="unsplashpvoepplw818-icon1"
                   alt=""
-                  src={NFTRose}
+                  src={billet}
                 />
               </div>
               <div className="lotterie4">
-                <div className="lotterie-child" />
+                {/* <div className="lotterie-child" /> */}
                 <button className="button">
                   <img className="button-child" alt="" src={RectangleBleu} />
                   <b className="enter">Enter</b>
@@ -135,7 +149,7 @@ function App() {
                 <img
                   className="unsplashpvoepplw818-icon"
                   alt=""
-                  src={NFTBleu}
+                  src={billetDroit}
                 />
               </div>
               <button className="button3">
@@ -148,25 +162,28 @@ function App() {
               </div>
               <div className="previous-winner1">
                 <div className="lotterie5">
-                  <div className="rectangle-div" />
+                  {/* <div className="rectangle-div" /> */}
                   <button className="button4">
                     <img className="button-child1" alt="" src={RectangleEwan} />
+                    <img className="winner-icon1" alt="" src={winner1} />
                     <b className="ewan">Ewan</b>
                   </button>
                   <div className="lotterie-002">Lotterie #002</div>
                 </div>
                 <div className="lotterie6">
-                  <div className="lotterie-child1" />
+                  {/* <div className="lotterie-child1" /> */}
                   <button className="button4">
                     <img className="button-child1" alt="" src={RectangleMathieu} />
+                    <img className="winner-icon2" alt="" src={winner1} />
                     <b className="ewan">Marc</b>
                   </button>
                   <div className="lotterie-002">Lotterie #001</div>
                 </div>
                 <div className="lotterie7">
-                  <div className="lotterie-child1" />
+                  {/* <div className="lotterie-child1" /> */}
                   <button className="button4">
                     <img className="button-child1" alt="" src={RectangleMathieu} />
+                    <img className="winner-icon3" alt="" src={winner1} />
                     <b className="ewan">Mathieu</b>
                   </button>
                   <div className="lotterie-002">Lotterie #003</div>

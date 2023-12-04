@@ -11,6 +11,7 @@ import twitter from '../assets/twitter.svg'
 import RectangleAnswer from '../assets/RectangleAnswer.svg'
 import RectangleEnterAnswer from '../assets/RectangleEnterAnswer.svg'
 import RectangleBet from '../assets/RectangleBet.svg'
+import RectangleConnect from '../assets/RectangleConnect.svg'
 
 function Page2() {
   const [count, setCount] = useState(0)
@@ -40,6 +41,10 @@ function Page2() {
   <div className={styles['top']}>
     <Link to="/"><div className={styles['denignma']}>Denignma</div></Link>
     <Link to="/page1"><div className={styles['my-account']}>My Account</div></Link>
+    <button className={styles['button3']}>
+          <img className={styles['button-child3']} alt="" src={RectangleConnect} />
+          <b className={styles['connect3']}>Connect</b>
+        </button>
   </div>
   <div className={styles['bottom']}>
     <Link to="/"><div className={styles['denignma']} onClick={top}>Denignma</div></Link>
@@ -97,6 +102,7 @@ function Page2() {
     </div>
   </div>
   <b className={styles['bets']}>Bets</b>
+  <b className="stack-tokens">Stack tokens</b>
   <div className={styles['numro2']}>
     <img className={styles['numro-child']} alt="" src={Ellipse} />
     <div className={styles['div']}>1</div>
